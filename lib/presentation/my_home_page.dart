@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:themoviedb/bloc/cubit/home_cubit.dart';
+import 'package:themoviedb/bloc/home_cubit/home_cubit.dart';
 import 'package:themoviedb/injection/injection.dart';
 import 'package:themoviedb/presentation/movies_page.dart';
 import 'package:themoviedb/presentation/people_page.dart';

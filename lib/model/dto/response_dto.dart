@@ -26,9 +26,9 @@ class ResponseDto<T> extends Equatable {
   // TODO: implement props
   List<Object?> get props => [code, message, data];
 }
-extension ResponseConverter on ResponseDto{
-  ResponseDto? decodeJson(Map<String, dynamic> json){
+
+extension ResponseConverter on ResponseDto {
+  ResponseDto? decodeJson(Map<String, dynamic> json) {
     
   }
 }
-
